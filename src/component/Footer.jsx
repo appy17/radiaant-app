@@ -117,7 +117,7 @@ function Footer() {
         <a href='javascript:void(0)' className='text-[#828282] hover:text-black text-sm'>Security</a>
       </li>
     </ul>
-    <p className='text-sm text-[#828282] lg:ml-auto max-lg:mt-6 flex justify-center'>Copyright © 2024<a href='https://readymadeui.com/'
+    <p className='text-sm text-[#828282] lg:ml-auto max-lg:mt-6 flex justify-center'>Copyright © 2024<a href='https://www.royalswebtech.com/'
         target='_blank' className="hover:underline mx-1">Royals WebTech</a>All Rights Reserved.</p>
   </div>
 </footer>
