@@ -391,6 +391,17 @@ const Header = () => {
           <img src={image1} alt="logo" className="w-20" />
         </a>{" "}
         <div className="flex items-center max-lg:ml-auto lg:order-1">
+        <span className="relative">
+            <i className="fa-brands fa-facebook"></i>
+            <span className="absolute left-auto -ml-1 top-0 rounded-full bg-red-500 px-1 py-0 text-xs text-white"></span>
+          </span> 
+
+          <span className="relative ml-8">
+            {/* Icon elements */}
+          </span> 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="20px" className="cursor-pointer fill-[#000] hover:fill-yellow-300 inline ml-7">
+            {/* Path elements for SVG icon */}
+          </svg>
           
           <button id="toggle" className="lg:hidden ml-7" onClick={toggleMenu}>
        
@@ -417,7 +428,7 @@ const Header = () => {
             <Link
               to="/"
               href="javascript:void(0)"
-              classNameName="hover:text-grey-800 font-bold text-[#201f1f] text-[15px] lg:hover:fill-gray-800 block"
+              className="hover:text-grey-800 font-bold text-[#201f1f] text-[15px] lg:hover:fill-gray-800 block"
             >
               Home
             </Link>
@@ -576,7 +587,7 @@ const Header = () => {
             </a>
             <ul className="absolute hidden group-hover:block shadow-lg max-lg:border max-lg:border-gray-500 bg-white px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 lg:-left-6 min-w-[250px] z-50">
               <li className="border-b py-2">
-                <a
+                <a 
                   href="/donate"
                   className="hover:text-blue-300 font-bold text-[#000] text-[15px] block"
                 >
